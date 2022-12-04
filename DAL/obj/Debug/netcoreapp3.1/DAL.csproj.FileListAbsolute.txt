@@ -10,3 +10,9 @@ D:\User\Documents\AA Rellevant\מחשבים\שנה ג\NEWPROJECT\DAL\obj\Debug\n
 D:\User\Documents\AA Rellevant\מחשבים\שנה ג\NEWPROJECT\DAL\obj\Debug\netcoreapp3.1\DAL.dll
 D:\User\Documents\AA Rellevant\מחשבים\שנה ג\NEWPROJECT\DAL\obj\Debug\netcoreapp3.1\DAL.pdb
 D:\User\Documents\AA Rellevant\מחשבים\שנה ג\NEWPROJECT\DAL\obj\Debug\netcoreapp3.1\DAL.genruntimeconfig.cache
+D:\User\Documents\AA Rellevant\מחשבים\שנה ג\independent\DAL\obj\Debug\netcoreapp3.1\DAL.csprojAssemblyReference.cache
+D:\User\Documents\AA Rellevant\מחשבים\שנה ג\independent\DAL\obj\Debug\netcoreapp3.1\DAL.AssemblyInfoInputs.cache
+D:\User\Documents\AA Rellevant\מחשבים\שנה ג\independent\DAL\obj\Debug\netcoreapp3.1\DAL.AssemblyInfo.cs
+D:\User\Documents\AA Rellevant\מחשבים\שנה ג\independent\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.CoreCompileInputs.cache
+D:\User\Documents\AA Rellevant\מחשבים\שנה ג\independent\DAL\obj\Debug\netcoreapp3.1\DAL.dll
+D:\User\Documents\AA Rellevant\מחשבים\שנה ג\independent\DAL\obj\Debug\netcoreapp3.1\DAL.pdb
