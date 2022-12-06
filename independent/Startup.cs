@@ -2,6 +2,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using AutoMapper;
+using BL;
+using DAL;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -27,11 +30,16 @@ namespace independent
         public void ConfigureServices(IServiceCollection services)
         {
 
+            services.AddScoped(typeof(IUserBL), typeof(UserBL));
+            services.AddScoped(typeof(IUserDAL), typeof(UserDAL));
+      
             services.AddControllers();
+         
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "independent", Version = "v1" });
             });
+            services.AddAutoMapper(typeof(Startup));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

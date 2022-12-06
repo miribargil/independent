@@ -1,36 +1,30 @@
-﻿using AutoMapper;
-using DL;
-using DTO;
-using Entities;
+﻿using DAL.Models;
 using System;
 using System.Collections.Generic;
+using Microsoft.EntityFrameworkCore;
 using System.Text;
-using System.Threading.Tasks;
+using DAL;
+using AutoMapper;
+using DTO.Models;
 
 namespace BL
 {
     public class UserBL : IUserBL
     {
-        IUserDL _userDL;
+        IUserDAL userDAL;
         IMapper _mapper;
-        public UserBL(IUserDL userDL, IMapper mapper)
+        public UserBL(IUserDAL _userDAL, IMapper mapper)
         {
-            _userDL = userDL;
+            userDAL = _userDAL;
             _mapper = mapper;
         }
-        public async Task<int> post(UserDTO userDTO)
+        public UserDTO GetUser(string id, string password)
         {
-            Users user = _mapper.Map<UserDTO, User>(userDTO);
-            return await _userDL.post(user);
-        }
+            User user = userDAL.getUser(id, password);
+            UserDTO userDTO = _mapper.Map<User, UserDTO>(user);
+            return userDTO;
 
-        public Task<int> post(UsersDTO userDTO)
-        {
-            throw new NotImplementedException();
+           
         }
-    }
-
-    internal interface IUserDL
-    {
     }
 }

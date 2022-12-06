@@ -7,3 +7,12 @@ D:\User\Documents\AA Rellevant\מחשבים\שנה ג\NEWPROJECT\DTO\obj\Debug\n
 D:\User\Documents\AA Rellevant\מחשבים\שנה ג\NEWPROJECT\DTO\obj\Debug\netcoreapp3.1\DTO.csproj.CoreCompileInputs.cache
 D:\User\Documents\AA Rellevant\מחשבים\שנה ג\NEWPROJECT\DTO\obj\Debug\netcoreapp3.1\DTO.dll
 D:\User\Documents\AA Rellevant\מחשבים\שנה ג\NEWPROJECT\DTO\obj\Debug\netcoreapp3.1\DTO.pdb
+D:\User\Documents\AA Rellevant\מחשבים\שנה ג\independent\DTO\bin\Debug\netcoreapp3.1\DTO.deps.json
+D:\User\Documents\AA Rellevant\מחשבים\שנה ג\independent\DTO\bin\Debug\netcoreapp3.1\DTO.dll
+D:\User\Documents\AA Rellevant\מחשבים\שנה ג\independent\DTO\bin\Debug\netcoreapp3.1\DTO.pdb
+D:\User\Documents\AA Rellevant\מחשבים\שנה ג\independent\DTO\obj\Debug\netcoreapp3.1\DTO.csprojAssemblyReference.cache
+D:\User\Documents\AA Rellevant\מחשבים\שנה ג\independent\DTO\obj\Debug\netcoreapp3.1\DTO.AssemblyInfoInputs.cache
+D:\User\Documents\AA Rellevant\מחשבים\שנה ג\independent\DTO\obj\Debug\netcoreapp3.1\DTO.AssemblyInfo.cs
+D:\User\Documents\AA Rellevant\מחשבים\שנה ג\independent\DTO\obj\Debug\netcoreapp3.1\DTO.csproj.CoreCompileInputs.cache
+D:\User\Documents\AA Rellevant\מחשבים\שנה ג\independent\DTO\obj\Debug\netcoreapp3.1\DTO.dll
+D:\User\Documents\AA Rellevant\מחשבים\שנה ג\independent\DTO\obj\Debug\netcoreapp3.1\DTO.pdb

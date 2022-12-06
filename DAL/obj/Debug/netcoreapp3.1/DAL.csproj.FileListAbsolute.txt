@@ -16,3 +16,12 @@ D:\User\Documents\AA Rellevant\מחשבים\שנה ג\independent\DAL\obj\Debug\
 D:\User\Documents\AA Rellevant\מחשבים\שנה ג\independent\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.CoreCompileInputs.cache
 D:\User\Documents\AA Rellevant\מחשבים\שנה ג\independent\DAL\obj\Debug\netcoreapp3.1\DAL.dll
 D:\User\Documents\AA Rellevant\מחשבים\שנה ג\independent\DAL\obj\Debug\netcoreapp3.1\DAL.pdb
+D:\User\Documents\AA Rellevant\מחשבים\שנה ג\independent\DAL\bin\Debug\netcoreapp3.1\DAL.deps.json
+D:\User\Documents\AA Rellevant\מחשבים\שנה ג\independent\DAL\bin\Debug\netcoreapp3.1\DAL.runtimeconfig.json
+D:\User\Documents\AA Rellevant\מחשבים\שנה ג\independent\DAL\bin\Debug\netcoreapp3.1\DAL.runtimeconfig.dev.json
+D:\User\Documents\AA Rellevant\מחשבים\שנה ג\independent\DAL\bin\Debug\netcoreapp3.1\DAL.dll
+D:\User\Documents\AA Rellevant\מחשבים\שנה ג\independent\DAL\bin\Debug\netcoreapp3.1\DAL.pdb
+D:\User\Documents\AA Rellevant\מחשבים\שנה ג\independent\DAL\bin\Debug\netcoreapp3.1\DTO.dll
+D:\User\Documents\AA Rellevant\מחשבים\שנה ג\independent\DAL\bin\Debug\netcoreapp3.1\DTO.pdb
+D:\User\Documents\AA Rellevant\מחשבים\שנה ג\independent\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.CopyComplete
+D:\User\Documents\AA Rellevant\מחשבים\שנה ג\independent\DAL\obj\Debug\netcoreapp3.1\DAL.genruntimeconfig.cache

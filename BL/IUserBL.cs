@@ -1,13 +1,10 @@
-﻿
-using System;
+﻿using DAL.Models;
+using DTO.Models;
 using System.Collections.Generic;
-using System.Text;
-using System.Threading.Tasks;
-
 namespace BL
 {
     public interface IUserBL
     {
-        Task<int> post(UserDTO userDTO);
+       public UserDTO GetUser(string id, string password);
     }
 }
