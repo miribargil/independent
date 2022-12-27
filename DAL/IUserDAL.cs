@@ -8,7 +8,9 @@ namespace DAL
     {
         public List<User> getAllUser();
         public User getUser(string id, string password);
-
+        bool AddUser(User user);
+        bool DeleteUser(string id);
+        bool UpdateUsers(string id, User user);
 
     }
 }

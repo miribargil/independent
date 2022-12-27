@@ -5,10 +5,12 @@ using System.Threading.Tasks;
 using AutoMapper;
 using BL;
 using DAL;
+using DAL.Models;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -34,7 +36,8 @@ namespace independent
             services.AddScoped(typeof(IUserDAL), typeof(UserDAL));
       
             services.AddControllers();
-         
+            
+            services.AddDbContext<independent_momContext>(options => options.UseSqlServer(Configuration.GetConnectionString("MySiteDB")));
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "independent", Version = "v1" });

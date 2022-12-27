@@ -6,7 +6,7 @@ namespace DTO.Models
 {
     public class KupotCholimDTO
     {
-        public string IdKupa { get; set; }
+        public int IdKupa { get; set; }
         public string NameKupa { get; set; }
         public string LinkKupa { get; set; }
     }

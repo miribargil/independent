@@ -23,28 +23,37 @@ namespace independent.Controllers
 
         // GET api/<UserController>/5
         [HttpGet("{id}/{password}")]
-      public UserDTO Get(string id, string password)
+        public UserDTO Get(string id, string password)
         {
             return _userBL.GetUser(id, password);
         }
 
         // POST api/<UserController>
         [HttpPost]
-        public void Post([FromBody] string value)
+        [Route("AddUSer")]
+        public bool AddUser([FromBody] UserDTO user)
         {
+            var x = _userBL.AddUser(user);
+            return x;
+        }
+
+        // DELETE api/<UserController>
+        [HttpDelete]
+        [Route("DeleteUser")]
+        public bool DeleteUser(string id)
+        {
+            return _userBL.DeleteUser(id);
         }
 
         // PUT api/<UserController>/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
+        [HttpPut]
+        [Route("Update/{id}")]
+        public ActionResult<bool> UpdateUser(string id, [FromBody] UserDTO user)
         {
+            if (user.Id != id)
 
-        }
-
-        // DELETE api/<UserController>/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
-        {
+                return StatusCode(400, "");
+            return Ok(_userBL.UpdateUser(id, user));
         }
     }
 }

@@ -113,9 +113,9 @@ namespace DAL.Models
                 entity.ToTable("kupot_cholim");
 
                 entity.Property(e => e.IdKupa)
-                    .HasMaxLength(10)
-                    .HasColumnName("id_kupa")
-                    .IsFixedLength(true);
+
+                    .HasColumnName("id_kupa");
+                    
 
                 entity.Property(e => e.LinkKupa)
                     .IsRequired()
@@ -175,7 +175,12 @@ namespace DAL.Models
 
             modelBuilder.Entity<User>(entity =>
             {
-                entity.HasKey(e => e.NumMom);
+                entity.HasKey(e => e.Id);
+                
+    //.IsRequired()
+    //.HasMaxLength(10)
+    //.HasColumnName("id")
+    //.IsFixedLength(true);
 
                 entity.ToTable("users");
 
@@ -198,11 +203,7 @@ namespace DAL.Models
                     .HasColumnName("f_name")
                     .IsFixedLength(true);
 
-                entity.Property(e => e.Id)
-                    .IsRequired()
-                    .HasMaxLength(10)
-                    .HasColumnName("id")
-                    .IsFixedLength(true);
+
 
                 entity.Property(e => e.IdKupa)
                     .IsRequired()
