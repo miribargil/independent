@@ -11,6 +11,7 @@ namespace DAL
         bool AddUser(User user);
         bool DeleteUser(string id);
         bool UpdateUsers(string id, User user);
+        bool UpdatePassword(string id, string mail);
 
     }
 }

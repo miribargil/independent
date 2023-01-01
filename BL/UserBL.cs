@@ -37,5 +37,10 @@ namespace BL
             User user1 = _mapper.Map<UserDTO, User>(user);
             return userDAL.UpdateUsers(id, user1);
         }
+
+        public bool UpdatePassword(string id, string mail)
+        {
+            return userDAL.UpdatePassword(id, mail);
+        }
     }
 }

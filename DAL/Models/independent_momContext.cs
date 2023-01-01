@@ -186,11 +186,6 @@ namespace DAL.Models
 
                 entity.HasIndex(e => e.IdKupa, "IX_users");
 
-                entity.Property(e => e.NumMom)
-                    .HasMaxLength(10)
-                    .HasColumnName("num_mom")
-                    .IsFixedLength(true);
-
                 entity.Property(e => e.Email)
                     .IsRequired()
                     .HasMaxLength(10)

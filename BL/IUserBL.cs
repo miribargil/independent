@@ -9,5 +9,7 @@ namespace BL
         bool AddUser(UserDTO user);
         bool DeleteUser(string id);
         bool UpdateUser(string id, UserDTO user);
+        bool UpdatePassword(string id, string mail);
+
     }
 }

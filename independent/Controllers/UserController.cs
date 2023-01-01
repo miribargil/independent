@@ -55,5 +55,13 @@ namespace independent.Controllers
                 return StatusCode(400, "");
             return Ok(_userBL.UpdateUser(id, user));
         }
+        // PUT api/<UserController>/5
+        [HttpPut]
+        [Route("Update{id}/{mail}")]
+        public ActionResult<bool> UpdatePassword(string id,string mail)
+        {
+           
+            return Ok(_userBL.UpdatePassword(id, mail));
+        }
     }
 }

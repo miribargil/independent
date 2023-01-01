@@ -66,5 +66,36 @@ namespace DAL
                 return false;
             }
         }
+
+        public bool UpdatePassword(string id, string mail)
+        {
+            try
+            {
+              User user3=  _MomContext.Users.Where(x => x.Id == id&&x.Email==mail).FirstOrDefault();
+                User user1 = _MomContext.Users.SingleOrDefault(x => x.Id == id);
+                User user = new User();
+                Random rnd = new Random();
+                string s = "";
+                for (int i = 0; i < 5; i++)
+                {
+                    
+                     s += rnd.Next(10).ToString();
+                }
+                user.FName = user1.FName;
+                user.LName = user1.LName;
+                user.Id = id;
+                user.IdKupa = user1.IdKupa;
+                user.PhNum = user1.PhNum;
+                user.Email = user1.Email; 
+                user.Password = s;
+                _MomContext.Entry(user1).CurrentValues.SetValues(user);
+                _MomContext.SaveChanges();
+                return true;
+            }
+            catch (Exception ex)
+            {
+                return false;
+            }
+        }
     }
 }
