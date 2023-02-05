@@ -77,7 +77,6 @@ D:\User\Documents\AA Rellevant\מחשבים\שנה ג\independent\independent\bi
 D:\User\Documents\AA Rellevant\מחשבים\שנה ג\independent\independent\bin\Debug\net5.0\BL.pdb
 D:\User\Documents\AA Rellevant\מחשבים\שנה ג\independent\independent\bin\Debug\net5.0\DAL.pdb
 D:\User\Documents\AA Rellevant\מחשבים\שנה ג\independent\independent\bin\Debug\net5.0\DTO.pdb
-D:\User\Documents\AA Rellevant\מחשבים\שנה ג\independent\independent\obj\Debug\net5.0\independent.csprojAssemblyReference.cache
 D:\User\Documents\AA Rellevant\מחשבים\שנה ג\independent\independent\obj\Debug\net5.0\independent.GeneratedMSBuildEditorConfig.editorconfig
 D:\User\Documents\AA Rellevant\מחשבים\שנה ג\independent\independent\obj\Debug\net5.0\independent.AssemblyInfoInputs.cache
 D:\User\Documents\AA Rellevant\מחשבים\שנה ג\independent\independent\obj\Debug\net5.0\independent.AssemblyInfo.cs
@@ -94,3 +93,4 @@ D:\User\Documents\AA Rellevant\מחשבים\שנה ג\independent\independent\ob
 D:\User\Documents\AA Rellevant\מחשבים\שנה ג\independent\independent\obj\Debug\net5.0\independent.pdb
 D:\User\Documents\AA Rellevant\מחשבים\שנה ג\independent\independent\obj\Debug\net5.0\independent.genruntimeconfig.cache
 D:\User\Documents\AA Rellevant\מחשבים\שנה ג\independent\independent\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\User\Documents\AA Rellevant\מחשבים\שנה ג\independent\independent\obj\Debug\net5.0\independent.csproj.AssemblyReference.cache
